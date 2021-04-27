@@ -27,7 +27,7 @@ class HornedBeast extends React.Component{
             </Card.Text>
             <Button onClick={this.increasePattingNumber} variant="primary">Vote</Button>
           </Card.Body>
-        </Card>\
+        </Card>
       </section>
     );
   }
