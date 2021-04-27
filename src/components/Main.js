@@ -10,12 +10,12 @@ class Main extends React.Component{
     };
   }
   render(){
-    return( this.state.data.map(result => {
+    return( this.state.data.map(todo => {
       return (
         <section>
-          <HornedBeast imageURL={result.image_url}
-            title={result.title}
-            description={result.description}
+          <HornedBeast imageURL={todo.image_url}
+            title={todo.title}
+            description={todo.description}
           />
         </section>
       );

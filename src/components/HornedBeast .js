@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-class HornedBeast  extends React.Component{
+class HornedBeast extends React.Component{
   constructor(props){
     super(props);
     this.state={
