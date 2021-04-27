@@ -1,10 +1,10 @@
 import React from 'react';
 
 class Footer extends React.Component{
-render(){
+  render(){
     return(
-        <p>Author: AseelHamamreh</p>
-    )
-}
+      <p>Author: Aseel Hamamreh</p>
+    );
+  }
 }
 export default Footer;

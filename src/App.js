@@ -1,18 +1,18 @@
 import React from 'react';
-import Header from './Header';
-import Footer from './Footer ';
-import Main from './Main';
+import Header from './components/Header';
+import Footer from './components/Footer ';
+import Main from './components/Main';
 
 class App extends React.Component{
   render(){
     return(
       <dev>
-            <Header/>
-            <Main />
-            <Footer/>
+        <Header/>
+        <Main />
+        <Footer/>
       </dev>
   
-    )
+    );
   }
 }
 
