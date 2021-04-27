@@ -13,8 +13,8 @@ class Main extends React.Component{
     return( this.state.data.map(result => {
       return (
         <section>
-          <HornedBeast imageURL={result.image_url} 
-            title={result.title} 
+          <HornedBeast imageURL={result.image_url}
+            title={result.title}
             description={result.description}
           />
         </section>

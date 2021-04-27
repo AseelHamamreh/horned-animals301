@@ -2,7 +2,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-
 class HornedBeast  extends React.Component{
   constructor(props){
     super(props);
@@ -28,7 +27,7 @@ class HornedBeast  extends React.Component{
             </Card.Text>
             <Button onClick={this.increasePattingNumber} variant="primary">Vote</Button>
           </Card.Body>
-        </Card>
+        </Card>\
       </section>
     );
   }
