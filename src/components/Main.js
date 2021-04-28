@@ -10,14 +10,17 @@ class Main extends React.Component{
       data: jsonData,
     };
   }
+  // TestFunction= () =>{
+  //   this.setState({
+  //     jsonData.filter(animal => animal.hornes === 1).map(filteredAnimal => (
+  //     data: filteredAnimal.hornes;
+  //     )};
+  // }
+
   render(){
     return( this.state.data.map(todo => {
       return (
         <section>
-          {/* <Aseel imageURL={todo.image_url}
-            title={todo.title}
-            description={todo.description}
-          /> */}
           <HornedBeast imageURL={todo.image_url}
             title={todo.title}
             description={todo.description}

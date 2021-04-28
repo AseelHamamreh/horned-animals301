@@ -10,7 +10,7 @@ class HornedBeast extends React.Component{
     this.state={
       pattingNumber:0,
       show:false,
-      setShow:false
+      setShow:false,
     };
   }
   increasePattingNumber = () => {
@@ -32,6 +32,7 @@ class HornedBeast extends React.Component{
   render(){
     return(
       <section>
+        
         <Card style={{ width: '18rem' }}>
           <Card.Img variant="top" src={this.props.imageURL} onClick={this.handleShow}/>
           <Card.Body>
