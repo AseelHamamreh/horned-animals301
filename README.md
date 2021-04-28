@@ -102,3 +102,14 @@ Finish time: 8:55 pm
 
 Actual time needed to complete: 53 minuets
  ---------------------------------------------------------------------------
+ Number and name of feature: Feature #4: Display a Modal
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 8 PM
+
+Finish time: 11:36 PM
+
+Actual time needed to complete: 3 houts 36 minuets
+ ---------------------------------------------------------------------------
+
