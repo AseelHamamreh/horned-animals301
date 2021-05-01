@@ -12,19 +12,20 @@ class Main extends React.Component {
     };
   }
   render(){
-    return <>
-      <CardColumns>
-        {this.state.data.map(element => {
-          return <HornedBeasts
-            ImageURL={element.image_url}
-            title={element.title}
-            description={element.description}
-          />;
-        })
-        }
-      </CardColumns>
-    </> ; 
-
+    return(
+      <div>
+        <CardColumns>
+          {this.state.data.map(element => {
+            return <HornedBeasts
+              ImageURL={element.image_url}
+              title={element.title}
+              description={element.description}
+            />;
+          })
+          }
+        </CardColumns>
+      </div>
+    );
   }
 }
 
