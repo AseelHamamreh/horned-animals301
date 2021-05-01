@@ -20,8 +20,7 @@ class Main extends React.Component {
             title={element.title}
             description={element.description}
           />;
-        }
-        )
+        })
         }
       </CardColumns>
     </> ; 
