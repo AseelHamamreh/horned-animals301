@@ -13,7 +13,6 @@ class HornedBeasts extends React.Component {
       setShow:false,
     };
   }
-  
   pattingFunction = () =>{
     this.setState ({
       pattingNumber: this.state.pattingNumber + 1,
@@ -40,7 +39,7 @@ class HornedBeasts extends React.Component {
             <Modal.Header closeButton>
               <Modal.Title>{this.props.title}</Modal.Title>
             </Modal.Header>
-            <img  src={this.props.ImageURL}/>
+            <img src={this.props.ImageURL}/>
             <Modal.Body>{this.props.description}</Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={this.handleClose}>
@@ -50,7 +49,7 @@ class HornedBeasts extends React.Component {
           </Modal>
         </>
         <Card style={{ width: '18rem' }}>
-          <Card.Img onClick={this.handleShow} variant="top"  src={this.props.ImageURL}  />
+          <Card.Img onClick={this.handleShow} variant="top" src={this.props.ImageURL} />
           <Card.Body>
             <Card.Title>{this.props.title}</Card.Title>
             <Card.Text>
