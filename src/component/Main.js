@@ -15,10 +15,17 @@ class Main extends React.Component {
   }
   changingevent = (event) =>{
     event.preventDefault();
-    const hornesNumber = event.target.value;
-    this.setState({
-      data:jsonData.filter(value => value.horns === Number(hornesNumber))
-    });
+    let hornesNumber = event.target.value;
+    if(hornesNumber >0){
+      this.setState({
+        data:jsonData.filter(value => value.horns === Number(hornesNumber))
+      });
+    } 
+    if (hornesNumber === 'All'){
+      this.setState({
+        data:jsonData
+      });
+    }
   };
   render(){
     return(
@@ -26,6 +33,7 @@ class Main extends React.Component {
         <Form>
           <Form.Label>How many hornes? </Form.Label>
           <Form.Control as="select" onChange={this.changingevent}>
+            <option>All</option>
             <option>1</option>
             <option>2</option>
             <option>3</option>
