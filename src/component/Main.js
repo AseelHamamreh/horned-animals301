@@ -20,7 +20,7 @@ class Main extends React.Component {
       this.setState({
         data:jsonData.filter(value => value.horns === Number(hornesNumber))
       });
-    } 
+    }
     if (hornesNumber === 'All'){
       this.setState({
         data:jsonData
