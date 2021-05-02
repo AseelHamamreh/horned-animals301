@@ -29,7 +29,6 @@ class HornedBeasts extends React.Component {
     });
   }
 
-
   render(){
     return(
       <section>
